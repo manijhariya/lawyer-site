@@ -1,0 +1,112 @@
+.our-services, .our-services-1{
+   padding-bottom: 30px;
+}
+.our-services-1{
+  width : 80%;
+  height : 20%;
+  padding-left : 8%;
+  padding-right : 8%;
+}
+.our-services-heading{
+    font-size: 44px;
+    color : #0d040f;
+    padding : 15px;
+}
+.our-services-heading-1{
+    font-size: 44px;
+    color : #752230;
+    padding : 15px;
+    text-align : center;
+    background-image : url(../img/2-banner.jpg);
+    height : 200px;
+}
+.our-services-cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1380px;
+    margin: auto;
+}
+.our-services-card{
+    position: relative;
+    min-width: 300px;
+    max-width: 350px;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+    transition: 0.3s;
+    cursor: pointer;
+    z-index: 1;
+}
+.our-services-card-heading{
+    position: absolute;
+    bottom: -100px;
+    visibility: hidden;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 600;
+}
+.our-services-card-text{
+    position: absolute;
+    bottom: -100px;
+    visibility: hidden;
+    color: #FFF;
+}
+.services-image{
+    object-fit : cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.card-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: .5s ease;
+    background-color: #393839;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.our-services-card:hover .card-overlay{
+    opacity: 50%;
+}
+.our-services-card:hover .our-services-card-heading{
+    bottom: 40px;
+    left: 20px;
+    visibility: visible;
+    transition: 0.3s;
+}
+.our-services-card:hover .our-services-card-text{
+    bottom: 20px;
+    left: 20px;
+    visibility: visible;
+    transition: 0.3s
+}
+    
+.tab-body {
+   padding : 10px;
+}
+.tab-image {
+   width : 30%;
+   float : left;
+}
+.tab-width {
+   width : 70%;
+   float : right;
+}
+.tab-image-1{
+   width : 90%;
+   height : 100%;
+}
+.tab-cotent {
+   background-color : grey;
+}

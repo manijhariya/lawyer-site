@@ -1,0 +1,81 @@
+.lawyer-hero{
+    background-image : url(../img/1-banner.jpg);
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+    height: 550px;
+    width : auto;
+}
+.lawyer-hero-section-1{
+    flex: 1;
+    padding-left: 80px;
+    /* display: flex;
+    flex-direction: column; */
+}
+.lawyer-hero-section-1-heading{
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    text-align: left;
+}
+.lawyer-hero-section-1-sub-heading{
+    font-size: 18px;
+    text-align: left;
+    color: #c8cddc;
+    margin-bottom: 80px;
+}
+.lawyer-hero-section-1-btn{
+    display: block;
+    border: 1px solid #df9a2a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #323848;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    max-width: 350px;
+}
+.lawyer-hero-section-1-btn:hover{
+    background-color: #df9a2a;
+    color: black;
+    transition: 0.3s;
+    font-weight: 600;
+}
+.lawyer-hero-section-2{
+    flex: 1.4;
+}
+.lawyer-hero-section-3{
+    display: flex;
+    flex: 1;
+}
+.lawyer-hero-section-3-points{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.lawyer-hero-section-2-img{
+    width: 100%;
+    height: 537px;
+}
+.point{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.point-img{
+    width: 50px;
+}
+.icon-text-heading{
+    font-size: 14px;
+    color: #0d0808;
+}
+.icon-text-sub-heading{
+    font-size: 16px;
+    color: #0d0808;
+    font-weight: 550;
+}

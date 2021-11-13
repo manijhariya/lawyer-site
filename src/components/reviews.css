@@ -1,0 +1,76 @@
+.french-section-5{
+  position: relative;
+  padding-top:10px;
+  padding-bottom: 80px;
+  background-color: #F2FBFF;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.french-section-5-heading{
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    color: #323232;
+}
+
+  .french-section-5-carausel-container{
+    max-width: 1400px;
+    margin: auto;
+  }
+  .carausel-orange-ellipse{
+    position: absolute;
+    width: 200px;
+    top: -80px;
+    left: -80px;
+  }
+  .carausel-blue-ellipse{
+    position: absolute;
+    width: 150px;
+    bottom: -40px;
+    right: -40px;
+  }
+  
+  .review-container{
+    position: relative;
+    min-width: 367px;
+    max-width: 367px;
+    height: 370px;
+    border-radius: 5px;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0px 2px 10px 10px rgba(90, 195, 255, 0.2); */
+  }
+  .reviewer-info{
+    display: flex;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    color: #697694;
+    align-items: center;
+  }
+  .reviewer-name-lvl{
+    margin-left: 15px;
+  }
+  .reviewer-image{
+    width: 50px;
+    height : 50px;
+  }
+  .reviewer-name{
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .reviewer-rating{
+    margin-left: 20px;
+    padding-top: 50px;
+  }
+  .reviewer-review{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    color: black;
+  }
+  
