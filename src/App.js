@@ -13,12 +13,6 @@ import { Route, Switch } from 'react-router';
 import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
-  const triggerText = 'Appointment';
-  const onSubmit = (event) => {
-    event.preventDefault(event);
-    console.log(event.target.name.value);
-    console.log(event.target.email.value);
-  };
   return (
     <Router>
       <Helmet> <title> Law Firm | Home </title>

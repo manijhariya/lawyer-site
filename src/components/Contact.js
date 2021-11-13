@@ -1,20 +1,12 @@
 //[TODO]: Change ABC name with firm name
-import { useReducer, useState } from 'react';
-import React,{Fragment} from 'react';
+import { useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import "./Contact.css"
 
-
-const formReducer = (state, event) => {
- return {
-   ...state,
-   [event.name]: event.value
- }
-}
-
  const Contact = () =>{
-    const [formData, setFormData] = useReducer(formReducer, {});
-  const [submitting, setSubmitting] = useState(false);
+   // const [formData, setFormData] = useReducer(formReducer, {});
+    const [submitting, setSubmitting] = useState(false);
     const handleSubmit = event => {
     event.preventDefault();
     setSubmitting(true);
@@ -24,12 +16,13 @@ const formReducer = (state, event) => {
     }, 3000);
   }
 
+  {/*
   const handleChange = event => {
     setFormData({
       name: event.target.name,
       value: event.target.value,
     });
-  }
+  } */}
     return (
 	<div>
 	  <Helmet>

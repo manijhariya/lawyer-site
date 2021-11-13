@@ -2,7 +2,6 @@
 
 import React from 'react'
 import "./navbar.css";
-import About from './About';
 import {useState, useEffect} from "react";
 import { Link } from 'react-router-dom';
 import { Container } from './Container';
@@ -30,7 +29,7 @@ function Navbar()
     return (
         <nav className = "navbar">
             <div className = "navbar-icon">
-               <Link to="/"> <img src = {logo} className = "law-icon"></img> </Link>
+               <Link to="/"> <img src = {logo} alt="" className = "law-icon"></img> </Link>
             </div>
             {
                 width > 768 ? 
@@ -43,7 +42,7 @@ function Navbar()
                 </ul>
                 :
                 <div>
-                    <img src = "/menu.svg" className = "menu-icon" onClick = {() => setMenuIconClicked(!isMenuIconClicked)}></img>
+                    <img src = "/menu.svg" alt="" className = "menu-icon" onClick = {() => setMenuIconClicked(!isMenuIconClicked)}></img>
                     {isMenuIconClicked ? 
                     <div className = "menu-items-mobiles">
                         <ul className = "menu-items">

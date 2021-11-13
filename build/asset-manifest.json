@@ -1,22 +1,21 @@
 {
   "files": {
-    "main.css": "/lawyer-site/static/css/main.3e08b6d9.chunk.css",
-    "main.js": "/lawyer-site/static/js/main.3220279c.chunk.js",
-    "main.js.map": "/lawyer-site/static/js/main.3220279c.chunk.js.map",
-    "runtime-main.js": "/lawyer-site/static/js/runtime-main.868ab6ed.js",
-    "runtime-main.js.map": "/lawyer-site/static/js/runtime-main.868ab6ed.js.map",
+    "main.css": "/lawyer-site/static/css/main.1dd81437.chunk.css",
+    "main.js": "/lawyer-site/static/js/main.5bfe88ad.chunk.js",
+    "main.js.map": "/lawyer-site/static/js/main.5bfe88ad.chunk.js.map",
+    "runtime-main.js": "/lawyer-site/static/js/runtime-main.86932960.js",
+    "runtime-main.js.map": "/lawyer-site/static/js/runtime-main.86932960.js.map",
     "static/css/2.dab86632.chunk.css": "/lawyer-site/static/css/2.dab86632.chunk.css",
-    "static/js/2.fc6077a6.chunk.js": "/lawyer-site/static/js/2.fc6077a6.chunk.js",
-    "static/js/2.fc6077a6.chunk.js.map": "/lawyer-site/static/js/2.fc6077a6.chunk.js.map",
-    "static/js/3.651e1afd.chunk.js": "/lawyer-site/static/js/3.651e1afd.chunk.js",
-    "static/js/3.651e1afd.chunk.js.map": "/lawyer-site/static/js/3.651e1afd.chunk.js.map",
+    "static/js/2.d74fb10e.chunk.js": "/lawyer-site/static/js/2.d74fb10e.chunk.js",
+    "static/js/2.d74fb10e.chunk.js.map": "/lawyer-site/static/js/2.d74fb10e.chunk.js.map",
+    "static/js/3.b18e4d75.chunk.js": "/lawyer-site/static/js/3.b18e4d75.chunk.js",
+    "static/js/3.b18e4d75.chunk.js.map": "/lawyer-site/static/js/3.b18e4d75.chunk.js.map",
     "index.html": "/lawyer-site/index.html",
     "static/css/2.dab86632.chunk.css.map": "/lawyer-site/static/css/2.dab86632.chunk.css.map",
-    "static/css/main.3e08b6d9.chunk.css.map": "/lawyer-site/static/css/main.3e08b6d9.chunk.css.map",
-    "static/js/2.fc6077a6.chunk.js.LICENSE.txt": "/lawyer-site/static/js/2.fc6077a6.chunk.js.LICENSE.txt",
+    "static/css/main.1dd81437.chunk.css.map": "/lawyer-site/static/css/main.1dd81437.chunk.css.map",
+    "static/js/2.d74fb10e.chunk.js.LICENSE.txt": "/lawyer-site/static/js/2.d74fb10e.chunk.js.LICENSE.txt",
     "static/media/mainheader.css": "/lawyer-site/static/media/1-banner.1f66ad61.jpg",
     "static/media/services.css": "/lawyer-site/static/media/2-banner.b2ff97ac.jpg",
-    "static/media/Banner.ff29c3ca.jpg": "/lawyer-site/static/media/Banner.ff29c3ca.jpg",
     "static/media/ProfilePhoto.bd3de5f8.jpg": "/lawyer-site/static/media/ProfilePhoto.bd3de5f8.jpg",
     "static/media/avatar.763b0fba.jpg": "/lawyer-site/static/media/avatar.763b0fba.jpg",
     "static/media/crimdef.52317453.jpg": "/lawyer-site/static/media/crimdef.52317453.jpg",
@@ -33,10 +32,10 @@
     "static/media/visitation.e2f4ed27.jpg": "/lawyer-site/static/media/visitation.e2f4ed27.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.868ab6ed.js",
+    "static/js/runtime-main.86932960.js",
     "static/css/2.dab86632.chunk.css",
-    "static/js/2.fc6077a6.chunk.js",
-    "static/css/main.3e08b6d9.chunk.css",
-    "static/js/main.3220279c.chunk.js"
+    "static/js/2.d74fb10e.chunk.js",
+    "static/css/main.1dd81437.chunk.css",
+    "static/js/main.5bfe88ad.chunk.js"
   ]
 }

@@ -1,12 +1,9 @@
 import React from 'react'
-import Particles from "react-particles-js";
-import {useState, useEffect} from "react";
 import "./mainheader.css";
 import { AiOutlineClockCircle } from 'react-icons/ai';
 import { IoMdCall } from "react-icons/io";
 import {AiOutlineMail} from 'react-icons/ai';
 
-import banner from '../img/Banner.jpg'
 
 function MainHeader() 
 {
@@ -18,7 +15,7 @@ function MainHeader()
                 <button className = "lawyer-hero-section-1-btn">Request Free Consultation</button>
             </div>
             <div className = "lawyer-hero-section-2">
-                <img src = "https://demo2.joomshaper.com/2019/themis/images/2019/09/05/hero-img.png" alt = "image" className = "lawyer-hero-section-2-img"></img>
+                <img src="https://demo2.joomshaper.com/2019/themis/images/2019/09/05/hero-img.png" alt="profile" className="lawyer-hero-section-2-img"></img>
             </div>
             <div className = "lawyer-hero-section-3">
                 <div className = "lawyer-hero-section-3-points">

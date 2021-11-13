@@ -1,4 +1,4 @@
-import React,{Fragment} from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import instagram from "../img/instagram.svg";
 import facebook from "../img/facebook.svg";
