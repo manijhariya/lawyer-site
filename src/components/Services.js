@@ -178,10 +178,12 @@ NIJ has funded research in several areas relevant to investigations, including c
 	  <Helmet>
 	    <title> Law Firm | Services </title>
 	  </Helmet>
-        <div className = "our-services-1">
-            <h3 className = "our-services-heading-1">How we help</h3>
+        <div className="our-services-1">
+	    <div className="our">
+            <center><h3 className = "our-services-heading-1">How we help</h3></center>
+            </div>
 	    <div className="service-cotent">
-	    <p className = "our-services-body"> We represent executives and employees in all types of employment disputes and advisory matters.  Some of our key practice areas are : <br /> <br /></p>
+	    <p className = "our-services-body"> <br/>We represent executives and employees in all types of employment disputes and advisory matters.  Some of our key practice areas are : <br /> <br /></p>
 	    <Paper square>
         	<Tabs
           	value={value}

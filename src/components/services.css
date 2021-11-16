@@ -3,7 +3,8 @@
    padding-right : 5%;
 }
 .our-services-1{
-   padding-bottom : 30px;
+   padding-top : 2%;
+   padding-bottom : 2%;
 }
 .our-services {
    background-image: linear-gradient(25deg,rgb(242 251 255) 0%,rgba(0,0,0,0.6) 100%)!important;
@@ -13,22 +14,30 @@
   height : 20%;
 }
 .our-services-heading{
-    font-size: 44px;
+    text-align : center;
+    font-size : 2.5rem;
     color : #0d040fe0;
     padding-left : 5%;
     padding-top : 5%;
     font-family : soleil;
     font-weight : 600;
 }
-.our-services-heading-1{
-    font-size: 44px;
-    color : #ffffffc9;
+.our{
+    background-image: linear-gradient(90deg,rgb(0 0 0 / 29%) 35%,rgb(0 0 0 / 0%) 100%), url(../img/2-banner.jpg)!important;
     padding : 15px;
-    padding-top : 10%;
+    padding-top : 5%;
     position : relative;
-    text-align : left;
-    background-image: linear-gradient(90deg,rgba(0,0,0,0.6) 35%,rgba(0,0,0,0.3) 100%),url(../img/2-banner.jpg)!important;
     height : 200px;
+}
+.our-services-heading-1{
+    display: inline-block;
+    font-size : 4rem;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    color: #dcecf7;
+    transition: 0.3s;
 }
 .our-services-cards{
     display: flex;
@@ -65,8 +74,8 @@
 .services-image{
     object-fit : cover;
     object-position: center;
-    width: 100%;
-    height: 100%;
+    width: 93%;
+    height: 93%;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
 }
@@ -80,16 +89,15 @@
     height: 100%;
     width: 100%;
     opacity: 0;
-    visibility: none;
-    transition: .5s ease;
+    transition: .4s ease;
     background-color: #393839;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 .our-services-card:hover .card-overlay{
-    opacity: 50%;
+    opacity: 40%;
 }
-.our-services-card:hover .our-services-card-heading{
+.our-services-card:hover .our-services-card-heading {
     bottom: 40px;
     left: 20px;
     visibility: visible;
@@ -100,6 +108,10 @@
     left: 20px;
     visibility: visible;
     transition: 0.3s
+}
+.our-services-card:hover .services-image{
+   width : 97%;
+   height : 97%;
 }
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap');
 .tab-body {

@@ -5,7 +5,6 @@ body,textarea{
   margin: 0;
   font-size: 16px;
   line-height: 1.6em;
-  font-family: Open Sans;
   font-weight: 400;
   font-style: normal;
   letter-spacing: .03em;
@@ -13,6 +12,13 @@ body,textarea{
   text-transform: none;
   color: rgba(39,49,63,.9);
 }
+
+@media screen and (max-width: 1000px) {
+   html {
+	display : -webkit-inline-box;
+   }
+}
+
 h1, h2,h3, h4, h5, h6 {
    color : black;
    font-family: 'Vollkorn', serif;
@@ -29,8 +35,7 @@ a {
 }
 
 .App {
-  max-width: 700px;
-  margin: 2em auto;
+  max-width: auto;
 }
 p.lorem-text {
   text-align: justify;

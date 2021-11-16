@@ -18,7 +18,7 @@ function About() {
                 An attorney can make or break a case based on how the case is documented, developed, and positioned for insurance companies and juries – we make sure that nothing is missed in your case and our results prove it.
                 <br/>
                 It’s no surprise Bighorn Law was named in the Top 100 personal injury attorneys in the nation in 2020.
-                </p>
+                </p> <br/>
                 <button className = "about-section-text-btn">Our Story</button>
             </div>
             <div className = "about-img-section">

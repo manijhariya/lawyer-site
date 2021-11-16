@@ -1,4 +1,3 @@
-// [TODO]: Write law firm correct name
 
 import React from 'react'
 import "./navbar.css";
@@ -34,10 +33,10 @@ function Navbar()
             {
                 width > 768 ? 
                 <ul className = "menu-items">
-                    <li className = "items-active"><Link to="/">Home</Link></li>
-		    <li className = "items"><Link to="/Services">How we Help</Link> </li>
-                    <li className = "items"><Link to="/aboutus">About</Link> </li>
-                    <li className = "items"><Link to="/contactus">Contact</Link></li>
+                    <li className = "items-active"><Link className="nav-a" to="/">Home</Link></li>
+		    <li className = "items"><Link className="nav-a" to="/Services">How we Help</Link> </li>
+                    <li className = "items"><Link className="nav-a" to="/aboutus">About</Link> </li>
+                    <li className = "items"><Link className="nav-a" to="/contactus">Contact</Link></li>
                     <li> <span><Container triggerText={triggerText} onSubmit={onSubmit} /> </span></li>
                 </ul>
                 :

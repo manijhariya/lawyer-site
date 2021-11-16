@@ -11,7 +11,7 @@ const Footer = () =>{
     return (
 	<div className="footer">
 	<div className="footer-div">
-	<h2> We're Here To Help | <Link to="contactus"> Contact Us  </Link></h2>
+	<h2> We're Here To Help | <Link className="nav-a" to="contactus"> Contact Us  </Link></h2>
 	<h2> (91) 9806747363 | saraswat.vipul@gmail.com </h2>
 	<hr  style={{
     		color: '#000000',

@@ -45,7 +45,7 @@ function Reviews() {
   return (
     <div className="french-section-5">
       <h3 className="french-section-5-heading">
-        What our <span style={{ color: "#2D3092" }}>Clients</span> Say
+        What our <span style={{ color: "rgb(9 61 101)" }}>Clients</span> Say
       </h3>
       <div className="french-section-5-carausel-container">
         <Carousel
