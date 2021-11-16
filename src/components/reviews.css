@@ -7,13 +7,15 @@
   overflow-y: hidden;
 }
 .french-section-5-heading{
-    font-size: 3rem;
+    font-size: 2.4rem;
     font-weight: 600;
     text-align: center;
     color: #323232;
 }
 
   .french-section-5-carausel-container{
+    font-family : 'Vollkorn', serif;
+    font-weight : 520;
     max-width: 1400px;
     margin: auto;
   }

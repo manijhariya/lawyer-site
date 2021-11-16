@@ -5,7 +5,6 @@ import facebook from "../img/facebook.svg";
 import linkedin from "../img/linkedin.svg";
 import mail from "../img/mail.svg";
 
-import ButtonMailto from "./MailTo"
 import './footer.css'
 const Footer = () =>{
     return (
@@ -21,7 +20,8 @@ const Footer = () =>{
     		borderColor : '#000000'
 	}}/>
 	<br />
-	<h2> <ButtonMailto label=<img src={mail} alt=""/> mailto="mailto:saraswat.vipul@gmail.com" ></ButtonMailto>
+	<h2> 
+	     <Link to={{ pathname: "mailto:saraswat.vipul@gmail.com" }} target="_blank"> <img src={mail} alt=""></img> </Link>
 	     <Link to={{ pathname: "https://facebook.com" }} target="_blank"> <img src={facebook} alt=""></img> </Link>
              <Link to={{ pathname: "https://linkedin.com/in/vipul-saraswat-34946976" }} target="_blank"> <img src={linkedin} alt=""></img> </Link>
              <Link to={{ pathname: "https://instagram.com/saraswatvipul" }} target="_blank"> <img src={instagram} alt=""></img> </Link>
