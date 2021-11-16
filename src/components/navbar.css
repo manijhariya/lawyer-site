@@ -1,10 +1,14 @@
 a:hover {
     color : black;
-    font-weight : bold;
+    font-weight : bolder;
+    text-decoration : underline;
+    padding : 5px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 a {
-   color: grey;
+   color: #000000e8;
    text-decoration: none;	
+   font-weight : 800;
 }
 .navbar{
     display: flex;
@@ -30,7 +34,7 @@ a {
     margin-top: 10px;
 }
 .menu-items{
-    flex: 1.5;
+    flex : 1.5;
     display: flex;
     justify-content: space-evenly;
     list-style: none;
@@ -50,9 +54,7 @@ a {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 .items{
@@ -62,14 +64,11 @@ a {
     border-top-left-radius: 12px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     cursor: pointer;
 }
 .items:hover{
     transition-duration: 1s;
-    
 }
 @media only screen and (max-width: 768px) 
 {

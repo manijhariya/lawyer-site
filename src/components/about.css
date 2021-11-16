@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Faustina&display=swap');
 .about-section{
+    padding-left : 2%;
+    padding-right : 2%;
     display: flex;
     padding-top: 40px;
-    padding-bottom: 40px;
-    background-color: #eaedf0;
-    color: black;
+    background-color: #F2FBFF;
+    color: #0d040fe0;
 }
 
 .about-text-section{
@@ -31,6 +33,7 @@
 .about-section-text{
     font-weight: 530;
     font-size: 1.3rem;
+    color : #27313f;
 }
 .about-section-text-btn{
     padding: 10px;
@@ -63,10 +66,9 @@
 .about-container {
     display: flex;
     padding-top: 50px;
-    padding-bottom: 0px;
-    padding-left: 10%;
-    padding-right: 10%;
-    background-color: #ffffff;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F2FBFF;
 }
 
 .about-container-section-1 {
@@ -84,14 +86,13 @@
     height : 400px;
 }
 .AboutContent{
-   font-family: Open Sans;
    font-weight: 400;
    font-style: normal;
-   font-size: 15px;
-   letter-spacing: .03em;
-   line-height: 1.9em;
+   font-size: 17px;
+   letter-spacing: .01em;
+   line-height: 1.8em;
    text-transform: none;
-   color: rgba(39,49,63,.9);
+   color: rgba(12,19,28,.9);
 }
 .eduction-headers{
    font-family: Arial,Helvetica,sans-serif;
@@ -101,17 +102,14 @@
     line-height: 1.2em;
     text-transform: none;
     font-family: soleil;
-    font-weight: 500;
     font-style: normal;
-    font-size: 16px;
     letter-spacing: .05em;
     line-height: 1.4em;
     text-transform: uppercase;
-    color : #009ddb;
+    color : #075a7a;
 }
 .educationContent{
-   font-family: Open Sans;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     font-size: 15px;
     letter-spacing: .03em;

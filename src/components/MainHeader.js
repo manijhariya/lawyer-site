@@ -48,7 +48,7 @@ function MainHeader()
                     </div>
                 </div>
             </div>
-        </div>  
+	</div>
     )
 }
 

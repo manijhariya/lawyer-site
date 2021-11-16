@@ -34,10 +34,10 @@ function Navbar()
             {
                 width > 768 ? 
                 <ul className = "menu-items">
-                    <li className = "items-active"><Link to="/"> Home </Link></li>
-		    <li className = "items"><Link to="/Services"> How we Help </Link> </li>
-                    <li className = "items"><Link to="/aboutus">About </Link> </li>
-                    <li className = "items"><Link to="contactus">Contact </Link></li>
+                    <li className = "items-active"><Link to="/">Home</Link></li>
+		    <li className = "items"><Link to="/Services">How we Help</Link> </li>
+                    <li className = "items"><Link to="/aboutus">About</Link> </li>
+                    <li className = "items"><Link to="/contactus">Contact</Link></li>
                     <li> <span><Container triggerText={triggerText} onSubmit={onSubmit} /> </span></li>
                 </ul>
                 :
@@ -46,9 +46,11 @@ function Navbar()
                     {isMenuIconClicked ? 
                     <div className = "menu-items-mobiles">
                         <ul className = "menu-items">
-                            <li className = "items"><Link to="/">Home</Link></li>
-                            <li className = "items"><Link to="/aboutus">About</Link></li>
-                            <li className = "items"><Link to="contactus">Contact Us</Link></li>
+                        <li className = "items-active"><Link to="/">Home</Link></li>
+		    	<li className = "items"><Link to="/Services">How we Help</Link> </li>
+                    	<li className = "items"><Link to="/aboutus">About</Link> </li>
+                    	<li className = "items"><Link to="/contactus">Contact</Link></li>
+                    	<li> <span><Container triggerText={triggerText} onSubmit={onSubmit} /> </span></li>
                         </ul> 
                     </div> 
                     : 

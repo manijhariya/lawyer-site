@@ -29,7 +29,7 @@ import "./Contact.css"
 	    <title> Law Firm | Contact </title>
 	  </Helmet>
 	<div className="Contact">
-        <h3> Want to learn more about how ABC Law can help you?  Please call, email or use the contact form below. </h3>
+        <h1 className="contact-heading"> Want to learn more about how Law Firm can help you?  Please call, email or use the contact form below. </h1>
 	<div className="contact-form">
 	<div className="contact-form-1">
 	<form onSubmit={handleSubmit}>
@@ -39,8 +39,8 @@ import "./Contact.css"
             <input className="small-font-text" type="text" name="Lname" placeholder="Last Name" required/>
           </label>
 	  <label>
-	    <p>Email</p>
-	    <input type="email" name="email" required/>
+	    <p>Phone Number</p>
+	    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="1234567890" required/>
 	 </label>
 	<label>
 	 <p>Message </p>
@@ -50,9 +50,9 @@ import "./Contact.css"
 	</form>
 	</div>
 	<div className="contact-form-2">
-	   <h2> PHONE <br /></h2><p className="contact-form-2-content"> (91) 9616000016</p>
-	   <h2> EMAIL <br /></h2><p className="contact-form-2-content"> lawfirmjabalpur@gmail.com</p>
-	   <h2> ADDRESS </h2> <p className="contact-form-2-content"> Legal Associate 14 Narsingh <br/> Building Ranital Square <br />
+	   <h2 className="contact-form-heading"> PHONE <br /></h2><p className="contact-form-2-content"> (91) 9806747363 <br/> (91) 9294639836</p>
+	   <h2 className="contact-form-heading"> EMAIL <br /></h2><p className="contact-form-2-content"> saraswat.vipul@gmail.com</p>
+	   <h2 className="contact-form-heading"> ADDRESS </h2> <p className="contact-form-2-content"> Narayan Nagar Garha Road <br/>
 								    Jabalpur Madhya Pradesh </p>
 	</div>
 	</div>

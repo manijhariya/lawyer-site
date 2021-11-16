@@ -4,7 +4,6 @@
     flex-direction: row;
     padding-bottom: 0px;
     height: 550px;
-    width : auto;
 }
 .lawyer-hero-section-1{
     flex: 1;
@@ -21,7 +20,8 @@
 .lawyer-hero-section-1-sub-heading{
     font-size: 18px;
     text-align: left;
-    color: #c8cddc;
+    font-weight : 800;
+    color: #101e24;
     margin-bottom: 80px;
 }
 .lawyer-hero-section-1-btn{

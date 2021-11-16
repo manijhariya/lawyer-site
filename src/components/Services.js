@@ -149,14 +149,14 @@ In New York, each party is entitled to half of the marital estate. The marital e
 	  </div>
 	}
 	if (userType === "5"){
-		return <div> The first step to choosing a child care provider is determining whether potential providers have a license from your state or local government. Licensing does not guarantee quality; however, it sets minimum requirements and ensures that programs are monitored for compliance with these requirements.
-<br /> <br />
+		return <div> <h4> Vigation and Child Care </h4> The first step to choosing a child care provider is determining whether potential providers have a license from your state or local government. Licensing does not guarantee quality; however, it sets minimum requirements and ensures that programs are monitored for compliance with these requirements.
+<br />
 Child care licensing regulations cover many topics, including the following:
-<br /> <br />
+<br />
 The number of children one adult can care for a time (child-staff ratio) and the number of children allowed in a class (group size)
-<br /><br />
-child care licensing requirements vary from state to state. The National Database of Child Care Licensing Regulations includes contact information and websites for state licensing departments. You can choose your state and view, download, and search the child care licensing regulations that apply to child care centers, family child care homes, and other licensed child care programs.
-<br /><br />
+<br /><br/>
+Child care licensing requirements vary from state to state. The National Database of Child Care Licensing Regulations includes contact information and websites for state licensing departments. You can choose your state and view, download, and search the child care licensing regulations that apply to child care centers, family child care homes, and other licensed child care programs.
+<br />
 You can also contact the government agency responsible for child care licensing to find out whether a provider has a license and view the provider’s licensing record. Most states include records of child care licensing inspections in the search results for each provider. States without records available on the web can give you this information over the phone or at the agency office.
 
 
@@ -164,7 +164,7 @@ You can also contact the government agency responsible for child care licensing 
 </div>;
 	}
 	if (userType === "6"){
-		return <div> Law enforcement investigations close cases and can prevent new crimes from occurring. Training in research-based investigative procedures and access to tools and resources can help law enforcement officers carry out successful investigations.
+		return <div> <h4> Law Enforcement solutions </h4> Law enforcement investigations close cases and can prevent new crimes from occurring. Training in research-based investigative procedures and access to tools and resources can help law enforcement officers carry out successful investigations.
 <br /><br />
 NIJ research enhances the forensic aspects of investigations and supports the creation and maintenance of investigative resources, such as manuals, databases and training courses.
 <br /><br />
@@ -180,6 +180,7 @@ NIJ has funded research in several areas relevant to investigations, including c
 	  </Helmet>
         <div className = "our-services-1">
             <h3 className = "our-services-heading-1">How we help</h3>
+	    <div className="service-cotent">
 	    <p className = "our-services-body"> We represent executives and employees in all types of employment disputes and advisory matters.  Some of our key practice areas are : <br /> <br /></p>
 	    <Paper square>
         	<Tabs
@@ -207,6 +208,7 @@ NIJ has funded research in several areas relevant to investigations, including c
         </div>
 
       </Paper>
+	</div>
 	</div>
       </div>
     )
