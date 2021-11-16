@@ -2,8 +2,8 @@
 .Contact{
    padding-left : 5%;
    padding-right : 5%;
-   padding-top : 30px;
-   padding-bottom : 20px;
+   padding-top : 1.5rem;
+   padding-bottom : 1.5rem;
    display: inline-block;
 }
 .contact-form-1{
@@ -18,7 +18,7 @@
 }
 .contact-heading {
   letter-spacing: 0.04em;
-  font-size : 20px;
+  font-size : 1.5rem;
 }
 
 input,textarea, .ContactSubmit{
@@ -58,21 +58,21 @@ h2, p,button {
 }
 .ContactSubmit {
    font-family: soleil;
-   font-size: 20px;
+   font-size: 1.5rem;
    font-weight: 700;
    font-style: normal;
    text-transform: uppercase;
    letter-spacing: .05em;
    color : #fff;
-   height : 25px;
-   width : 40px;
+   height : 1.5rem;
+   width : 2rem;
    background-color : #7a7878;
 }
 .ContactSubmit:hover {
    background-color : #2375a8;
 }
 .contact-form-2-content {
-    font-size : 18px;
+    font-size : 1.4rem;
     font-weight : 550;
     text-decoration : underline;
     color : #072246;
@@ -83,7 +83,7 @@ h2, p,button {
 
 textarea {
   width : 50%;
-  height : 100px;
+  height : 10rem;
 }
 
 .small-font-text {
@@ -94,14 +94,14 @@ Button {
   background-color: #7a7878;
   border: none;
   color: white;
-  padding : 6px 14px;
+  padding : 0.5rem 1.4rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 20px;
+  font-size: 1.2rem;
   font-weight : 600;
   font-family : 'Vollkorn', serif;
-  margin: 4px 2px;
+  margin: 0.4rem 0.4rem;
   cursor: pointer;
   border: 2px solid #df9a2a;
   -webkit-transition-duration: 0.4s; /* Safari */

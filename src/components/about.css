@@ -3,7 +3,7 @@
     padding-left : 2%;
     padding-right : 2%;
     display: flex;
-    padding-top: 40px;
+    padding-top: 2rem;
     background-color: #F2FBFF;
     color: #0d040fe0;
 }
@@ -13,8 +13,8 @@
     flex:1;
     flex-direction: column;
     text-align: left;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
 }
 .about-img-section{
     flex:1;
@@ -37,8 +37,8 @@
     color : #27313f;
 }
 .about-section-text-btn{
-    padding: 10px;
-    width: 150px;
+    padding: 0.8rem;
+    width: 8rem;
     font-weight: 700;
     transition: 0.3s;
     cursor: pointer;
@@ -66,7 +66,8 @@
 
 .about-container {
     display: flex;
-    padding-top: 50px;
+    padding-top: 0.5rem;
+    padding-bottom : 2rem;
     padding-left: 5%;
     padding-right: 5%;
     background-color: #F2FBFF;
@@ -75,7 +76,7 @@
 .about-container-section-1 {
     width: 65%; 
     float:left;
-    padding-right : 15px;
+    padding-right : 1.5rem;
 }
 .about-container-section-2 {
     width: 30%;
@@ -84,12 +85,12 @@
 
 .profilephoto{
     width : 100%;
-    height : 400px;
+    height : 25rem;
 }
 .AboutContent{
    font-weight: 400;
    font-style: normal;
-   font-size: 17px;
+   font-size : 1.2rem;
    letter-spacing: .01em;
    line-height: 1.8em;
    text-transform: none;
@@ -98,7 +99,7 @@
 .eduction-headers{
    font-family: Arial,Helvetica,sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.3rem;
     letter-spacing: 0em;
     line-height: 1.2em;
     text-transform: none;
@@ -112,7 +113,7 @@
 .educationContent{
     font-weight: 600;
     font-style: normal;
-    font-size: 15px;
+    font-size: 1.1rem;
     letter-spacing: .03em;
     line-height: 1.9em;
     text-transform: none;

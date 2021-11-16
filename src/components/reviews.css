@@ -7,7 +7,7 @@
   overflow-y: hidden;
 }
 .french-section-5-heading{
-    font-size: 45px;
+    font-size: 3rem;
     font-weight: 600;
     text-align: center;
     color: #323232;
@@ -19,7 +19,7 @@
   }
   .carausel-orange-ellipse{
     position: absolute;
-    width: 200px;
+    width: 100%;
     top: -80px;
     left: -80px;
   }
@@ -34,8 +34,8 @@
     position: relative;
     min-width: 367px;
     max-width: 367px;
-    height: 370px;
-    border-radius: 5px;
+    height: 122%;
+    border-radius: 0.01rem;
     background-color: white;
     margin-left: 20px;
     margin-right: 20px;
@@ -47,30 +47,30 @@
   .reviewer-info{
     display: flex;
     position: absolute;
-    bottom: 30px;
-    left: 20px;
+    bottom: 1.5rem;
+    left: 1.2rem;
     color: #697694;
     align-items: center;
   }
   .reviewer-name-lvl{
-    margin-left: 15px;
+    margin-left: 1rem;
   }
   .reviewer-image{
-    width: 50px;
-    height : 50px;
+    width: 3.5rem;
+    height : 3.5rem;
   }
   .reviewer-name{
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: 700;
   }
   .reviewer-rating{
-    margin-left: 20px;
-    padding-top: 50px;
+    margin-left: 1.5rem;
+    padding-top: 2rem;
   }
   .reviewer-review{
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-top: 20px;
+    margin-left: 1.5rem;
+    margin-right: 1.2rem;
+    padding-top: 1.2rem;
     color: black;
   }
   

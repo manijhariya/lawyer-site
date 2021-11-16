@@ -27,14 +27,14 @@
     padding : 15px;
     padding-top : 5%;
     position : relative;
-    height : 200px;
+    height : 12rem;
 }
 .our-services-heading-1{
     display: inline-block;
     font-size : 4rem;
-    padding-bottom: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 10%;
+    padding-left: 8%;
+    padding-right: 10%;
     text-align: center;
     color: #dcecf7;
     transition: 0.3s;
@@ -50,24 +50,24 @@
     position: relative;
     min-width: 300px;
     max-width: 350px;
-    height: 400px;
-    margin-top: 20px;
-    margin-bottom: 20px;    
+    height: 25rem;
+    margin-top: 1.0rem;
+    margin-bottom: 1.2rem;    
     transition: 0.3s;
     cursor: pointer;
     z-index: 1;
 }
 .our-services-card-heading{
     position: absolute;
-    bottom: -100px;
+    bottom: -25rem;
     visibility: hidden;
     color: #FFF;
-    font-size: 24px;
+    font-size: 1.8rem;
     font-weight: 600;
 }
 .our-services-card-text{
     position: absolute;
-    bottom: -100px;
+    bottom: -25rem;
     visibility: hidden;
     color: #FFF;
 }
@@ -98,14 +98,14 @@
     opacity: 40%;
 }
 .our-services-card:hover .our-services-card-heading {
-    bottom: 40px;
-    left: 20px;
+    bottom: 3rem;
+    left: 1.3rem;
     visibility: visible;
     transition: 0.3s;
 }
 .our-services-card:hover .our-services-card-text{
-    bottom: 20px;
-    left: 20px;
+    bottom: 1.5rem;
+    left: 1.3rem;
     visibility: visible;
     transition: 0.3s
 }
