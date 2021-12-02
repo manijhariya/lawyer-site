@@ -37,7 +37,8 @@ function Navbar()
 		    <li className = "items"><Link className="nav-a" to="/Services">How we Help</Link> </li>
                     <li className = "items"><Link className="nav-a" to="/aboutus">About</Link> </li>
                     <li className = "items"><Link className="nav-a" to="/contactus">Contact</Link></li>
-                    <li> <span><Container triggerText={triggerText} onSubmit={onSubmit} /> </span></li>
+		    <li className = "items"><Link className="nav-a equiry-tab" to={{ pathname : "https://api.whatsapp.com/send?phone=919806747363&text=Hi,%20Vipul%20Law%20Firm"}} target="_blank">Enquiry</Link></li>
+
                 </ul>
                 :
                 <div>

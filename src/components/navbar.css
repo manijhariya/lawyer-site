@@ -101,3 +101,21 @@ a {
 .appointment-items{
      background-color: #42adf5;
 }
+.equiry-tab{
+	background-color: #7a7878;
+    border: none;
+    color: white;
+    padding: 0.2rem 1.2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: 'Vollkorn', serif;
+    cursor: pointer;
+    border: 2px solid #df9a2a;
+    transition-duration: 0.4s;
+}
+.equiry-tab:hover {
+    background-color : #083b61;
+}
